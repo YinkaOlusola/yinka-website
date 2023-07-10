@@ -663,8 +663,8 @@ h3.my-profession
 }
 .portfolio .portfolio-item
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner
@@ -673,12 +673,55 @@ h3.my-profession
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    transition: all 0.3S ease;
+}
+.portfolio .portfolio-item-inner .title
+{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    transition: all 0.3S ease;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
 }
 .portfolio .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
     display: block;
     height: 250px;
+}
+.portfolio .portfolio-item-inner p
+{
+    margin: 30px 0 0;
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+    justify-content: center;
+}
+.portfolio .portfolio-item-inner h4
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-align: right;
+}
+.portfolio .portfolio-item-inner .tech-used
+{
+    max-width: 50%;
+    margin: 30px 0 0;
+    font-size: 16px;
+    color: var(--text-black-900);
+    line-height: 25px;
+    text-align: left;
 }
 /* contact */
 .contact-title
@@ -706,6 +749,7 @@ h3.my-profession
 {
     display: inline-block;
 }
+.contact .contact-info-item .icon .fa-brands,
 .contact .contact-info-item .icon .fa
 {
     font-size: 25px;
