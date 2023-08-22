@@ -771,7 +771,7 @@ h3.my-profession
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 10px 0 5px;
+    padding: 15px;
     font-size: 14px;
     font-weight: 400;
 }
@@ -902,6 +902,26 @@ h3.my-profession
         display: block;
         margin-left: 0;
     }
+    .pitch .elevator-pitch-text
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .pitch .elevator-pitch-video
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;     
+    }
 }
 @media (max-width:991px)
 {
@@ -921,6 +941,27 @@ h3.my-profession
     {
         display: none;
     }
+    .pitch .elevator-pitch-text
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .pitch .elevator-pitch-video
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;     
+    }
+    
 }
 @media (max-width:767px)
 {
@@ -935,5 +976,25 @@ h3.my-profession
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .pitch .elevator-pitch-text
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .pitch .elevator-pitch-video
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;     
     }
 }
